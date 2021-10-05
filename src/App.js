@@ -1,5 +1,5 @@
 // import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import HomePage from './Components/HomePage';
 import Governance from "./Pages/Governance";
 import TeamPage from "./Pages/TeamPage";
@@ -31,7 +31,7 @@ function App() {
       <Router basename="/" >
         <PageHeader />
         <Switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact strict path="/" component={HomePage} />
           <Route path={'/(.+)'}
             render={() => (
               <>

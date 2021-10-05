@@ -8,21 +8,23 @@ import Footer from './Footer';
 import Mission from './Mission';
 import CoreValues from './CoreValues';
 import Code from './Code';
-const HomePage = () =>{
-return (
-    <div className="text-center text-sm-left page">
-            {/* <PageLoader />
+const HomePage = () => {
+    return (
+        <>            
+            <div className="text-center text-sm-left page">
+                {/* <PageLoader />
             <PageHeader />            */}
-             {/* <PageLoader /> */}
-            <Slider />
-            <Mission/>
-            <CoreValues/>
-            <Code/>
-            <ReliefSection />
-            <Partners />
-            {/* <Footer /> */}
-            <div className="snackbars" id="form-output-global"></div>
-        </div>
-)
+                {/* <PageLoader /> */}
+
+                <Slider />
+                <Mission />
+                <CoreValues />
+                <Code />
+                <ReliefSection />
+                <Partners />
+                {/* <Footer /> */}
+                <div className="snackbars" id="form-output-global"></div>
+            </div></>
+    )
 }
 export default HomePage;
