@@ -7,8 +7,10 @@ const Agriculture = () => {
                         <li className="active"><a href="services.html#tabs-3-1" data-toggle="tab">
                             Agriculture Intervention<span
                                 className="icon-arrow icon-rotate-90 material-icons-keyboard_backspace"></span></a></li>
-
+<div className="wrap-img offset-img-01"><img src="images/Recoverd_jpg_file431-2.jpg" alt="" width="412" height="520" />
+                    </div>
                     </ul>
+                    
                     <div className="tab-content text-left">
                         <div className="tab-pane fade in active counter-index-sec" id="tabs-3-1">
                             <div className="inset-right-lg-150">

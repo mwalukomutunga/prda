@@ -8,7 +8,8 @@ const Water = () => {
                         <li className="active"><a href="services.html#tabs-3-1" data-toggle="tab">
                             Water, Sanitation & Hygiene (Wash) Intervention<span
                                 className="icon-arrow icon-rotate-90 material-icons-keyboard_backspace"></span></a></li>
-
+                        <div className="wrap-img offset-img-01"><img src="images/DSC01063.jpg" alt="" width="412" height="520" />
+                        </div>
                     </ul>
                     <div className="tab-content text-left">
                         <div className="tab-pane fade in active counter-index-sec" id="tabs-3-1">
@@ -25,7 +26,7 @@ const Water = () => {
                                     Limited access to improved water sources, deficient sanitation facilities and low knowledge
                                     and practice of good hygiene behaviours are all interlinked factors of a negative loop and
                                     PRDA strategy is to break this loop intervening on water source reliability, household level
-                                    sanitation and diffused positive hygiene behaviours.<br/>This approach has important positive
+                                    sanitation and diffused positive hygiene behaviours.<br />This approach has important positive
                                     effects on the side of protection and contrast to GBV as household-based sanitation limits
                                     the need of women, girls, boys and men for re-searching isolated places were to attend daily
                                     needs.
