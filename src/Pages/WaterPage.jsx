@@ -9,7 +9,7 @@ const WaterPage = () => {
     <div className="text-center text-sm-left page">
         {/* <PageLoader />
         <PageHeader /> */}
-        <Breadcrumbs Page={"Water, Sanitation & Hygiene (Wash) Intervention"} />
+        <Breadcrumbs Page={"Water, Sanitation & Hygiene (Wash) Intervention"} style ={{backgroundImage:'url(images/gallery_img073.JPG'}}/>
         <Water />
         {/* <Footer /> */}
         <div className="snackbars" id="form-output-global"></div>

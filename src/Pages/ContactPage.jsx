@@ -9,7 +9,7 @@ const ContactPage = () => {
     <div className="text-center text-sm-left page">
         {/* <PageLoader />
         <PageHeader /> */}
-        <Breadcrumbs Page={"Contacts"} />
+        <Breadcrumbs Page={"Contacts"} style ={{backgroundImage:'url(images/DSC025912.jpg'}} />
         <Contact />
         {/* <Footer /> */}
         <div className="snackbars" id="form-output-global"></div>

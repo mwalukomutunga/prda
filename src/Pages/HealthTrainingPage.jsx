@@ -9,7 +9,7 @@ const HealthTrainingPage = () => {
     <div className="text-center text-sm-left page">
         {/* <PageLoader />
         <PageHeader /> */}
-        <Breadcrumbs Page={"Leer Health Science Institute"} />
+        <Breadcrumbs Page={"Leer Health Science Institute"} style ={{backgroundImage:'url(images/4-1920x729.jpg'}} />
         <HealthTraining />
         {/* <Footer /> */}
         <div className="snackbars" id="form-output-global"></div>

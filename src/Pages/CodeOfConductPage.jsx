@@ -9,7 +9,7 @@ const CodeOfConductPage = () => {
     <div className="text-center text-sm-left page">
         {/* <PageLoader />
         <PageHeader /> */}
-        <Breadcrumbs Page={"Code of Conduct"} />
+        <Breadcrumbs Page={"Code of Conduct"} style ={{backgroundImage:'url(images/prda.webp'}} />
         <CodeOfConduct />
         {/* <Footer /> */}
         <div className="snackbars" id="form-output-global"></div>

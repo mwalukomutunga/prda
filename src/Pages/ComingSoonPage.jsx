@@ -9,7 +9,7 @@ const ComingSoonPage = () => {
     <div className="text-center text-sm-left page">
         {/* <PageLoader />
         <PageHeader /> */}
-        <Breadcrumbs Page={"Coming soon"} />
+        <Breadcrumbs style ={{backgroundImage:'url(images/DSC025912.jpg'}} Page={"Coming soon"} />
         <ComingSoon/>
         {/* <Footer /> */}
         <div className="snackbars" id="form-output-global"></div>

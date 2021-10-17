@@ -1,7 +1,7 @@
-const Breadcrumbs =({Page})=>{
+const Breadcrumbs =({Page, style})=>{
     return(
         <section className="breadcrumbs-custom text-left"
-        style={{backgroundImage:'url(images/IMG-20210707-WA0096.jpg'}}>
+        style={style}>
         <div className="shell">
             <h2 className="breadcrumbs-custom__title">{Page}</h2>
             <ul className="breadcrumbs-custom__path">

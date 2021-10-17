@@ -9,7 +9,7 @@ const GalleryPage = () => {
         <div className="text-center text-sm-left page">
         {/* <PageLoader />
         <PageHeader /> */}
-        <Breadcrumbs Page ={"Gallery"}/>
+        <Breadcrumbs Page ={"Gallery"} style ={{backgroundImage:'url(images/M21-Strategy-Workshop-Nairobi-1.jpg'}}/>
         <Gallery/>        
         {/* <Footer /> */}
         <div className="snackbars" id="form-output-global"></div>

@@ -42,8 +42,8 @@ const NavBar = () => {
                                 <div className="unit__left"><span
                                     className="icon icon-md icon-primary-dark fa-clock-o"></span></div>
                                 <div className="unit__body">
-                                    <div className="p">Mon - Sat 8.00 - 18.00</div>
-                                    <div className="p">Sunday CLOSED</div>
+                                    <div className="p">Mon - Fri 8.00 - 17.00</div>
+                                    <div className="p">Saturday, Sunday CLOSED</div>
                                 </div>
                             </div>
                         </li>

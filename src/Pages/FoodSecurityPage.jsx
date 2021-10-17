@@ -1,14 +1,11 @@
-import PageHeader from "../Components/PageHeader";
-import PageLoader from "../Components/PageLoader";
 import Breadcrumbs from "../Components/Breadcrumbs";
-import Footer from "../Components/Footer";
 import FoodSecurity from "../Content/FoodSecurity";
 const FoodSecurityPage = () => {
     return (
     <div className="text-center text-sm-left page">
         {/* <PageLoader />
         <PageHeader /> */}
-        <Breadcrumbs Page={"Food security"} />
+        <Breadcrumbs Page={"Food security"} style ={{backgroundImage:'url(images/DSC00156.jpg'}}/>
         <FoodSecurity />
         {/* <Footer /> */}
         <div className="snackbars" id="form-output-global"></div>

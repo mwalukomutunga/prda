@@ -9,7 +9,7 @@ const HistoryPage = () => {
     <div className="text-center text-sm-left page">
         {/* <PageLoader />
         <PageHeader /> */}
-        <Breadcrumbs Page={"History"} />
+        <Breadcrumbs Page={"History"} style ={{backgroundImage:'url(images/prda.webp'}}/>
         <History />
         {/* <Footer /> */}
         <div className="snackbars" id="form-output-global"></div>

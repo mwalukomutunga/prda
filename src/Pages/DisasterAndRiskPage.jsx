@@ -8,7 +8,7 @@ const DisasterAndRiskPage = () => {
     <div className="text-center text-sm-left page">
         {/* <PageLoader />
         <PageHeader /> */}
-        <Breadcrumbs Page={"Disaster & Risk Management"} />
+        <Breadcrumbs Page={"Disaster & Risk Management"} style ={{backgroundImage:'url(images/DSC01064.JPG'}}/>
         <DisasterAndRisk />
         {/* <Footer /> */}
         <div className="snackbars" id="form-output-global"></div>

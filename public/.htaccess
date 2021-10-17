@@ -1,18 +1,4 @@
 Options -MultiViews
-RewriteEngine On
-
-DirectoryIndex index.html
-
-# Abort early if request is already for index.html in the root
-RewriteRule ^index\.html$ - [L]
-
-# Request a directory - check for index.html in that directory
-# (Excludes the document root)
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule %{DOCUMENT_ROOT}/$1/index.html -f
-RewriteRule ^(.+?)/?$ $1/index.html [L]
-
-# Route all other non-file requests to index.html in the root
-# (incl. directories that don't contain index.html themselves)
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule . index.html [L]
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.html [QSA,L]

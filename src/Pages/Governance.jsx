@@ -9,7 +9,7 @@ const Governance = () => {
         <div className="text-center text-sm-left page">
         {/* <PageLoader />
         <PageHeader /> */}
-        <Breadcrumbs Page ={"Governance"}/>
+        <Breadcrumbs Page ={"Governance"} style ={{backgroundImage:'url(images/DSC01064.JPG'}}/>
         <GovernanceContent/>        
         {/* <Footer /> */}
         <div className="snackbars" id="form-output-global"></div>

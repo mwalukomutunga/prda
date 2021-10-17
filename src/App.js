@@ -1,5 +1,5 @@
 // import './App.css';
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HomePage from './Components/HomePage';
 import Governance from "./Pages/Governance";
 import TeamPage from "./Pages/TeamPage";
@@ -31,7 +31,7 @@ function App() {
       <Router basename="/" >
         <PageHeader />
         <Switch>
-          <Route exact strict path="/" component={HomePage} />
+          <Route exact  path="/" component={HomePage} />
           <Route path={'/(.+)'}
             render={() => (
               <>
@@ -55,6 +55,7 @@ function App() {
               </>
             )
             } />
+          <Route component={HomePage} />
         </Switch>
         <Route exact path="/email" render={() => (window.location = "https://host22.safaricombusiness.co.ke:2096/", "_blank", strWindowFeatures)} />
         <Route exact path="/facebook" render={() => (window.open = "https://www.facebook.com/search/top?q=prda", "_blank", strWindowFeatures)} />

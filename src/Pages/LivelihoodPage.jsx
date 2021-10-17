@@ -9,7 +9,7 @@ const LivelihoodPage = () => {
         <div className="text-center text-sm-left page">
         {/* <PageLoader />
         <PageHeader /> */}
-        <Breadcrumbs Page ={"Livelihoods"}/>
+        <Breadcrumbs Page ={"Livelihoods"} style ={{backgroundImage:'url(images/DSC01064.JPG'}}/>
         <Livelihoods/>        
         {/* <Footer /> */}
         <div className="snackbars" id="form-output-global"></div>
